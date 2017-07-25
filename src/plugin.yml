@@ -1,0 +1,21 @@
+name: aRegionSaver
+main: Brin\aRS_Main
+version: 1.1.2
+api: [3.0.0, 3.0.1]
+author: Brin
+
+commands:
+  ars:
+    default: true
+    description: Saving the region
+
+permissions:
+  ars:
+    default: op
+    children:
+      ars.save:
+        default: op
+        description: 'Save region'
+      ars.paste:
+        default: op
+        description: 'Paste region'
